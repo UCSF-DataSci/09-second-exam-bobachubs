@@ -14,7 +14,6 @@ lst_file="insurance.lst"
 #     }
 # ' "$input_file" > "$output_file"
 
-
 {
     grep -v '^#' "$input_file" |         
     sed '/^$/d' | #empty lines
